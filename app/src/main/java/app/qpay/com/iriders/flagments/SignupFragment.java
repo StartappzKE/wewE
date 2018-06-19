@@ -147,9 +147,9 @@ public class SignupFragment extends Fragment {
                 RequestQueue requestQueue = Volley.newRequestQueue(getActivity());
                 requestQueue.add(stringRequest);
 
-        /*stringRequest.setRetryPolicy(new DefaultRetryPolicy(5000,
+                stringRequest.setRetryPolicy(new DefaultRetryPolicy(5000,
                 DefaultRetryPolicy.DEFAULT_MAX_RETRIES,
-                DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));*/
+                DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
 
     }
 
